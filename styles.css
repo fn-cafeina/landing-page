@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.fs-section {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+.fs-container {
+  width: 70%;
+}
+
+.fs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.fs-header > h1 {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+.fs-header > ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fs-header > ul > li {
+  color: #E5E7EB;
+}
+
+.fs-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.fs-main-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fs-main-left > h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.fs-main-left > p {
+  color: #E5E7EB;
+}
+
+.fs-main-left-btn {
+  padding: 4px 24px;
+  background-color: #3883F6;
+  border: none;
+  border-radius: 4px;
+  color: #F9FAF8;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sc-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 0px;
+}
+
+.sc-header > h1 {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.sc-content-imgs {
+  display: flex;
+  gap: 40px;
+}
+
+.sc-content-imgs > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  gap: 10px;
+}
+
+.sc-content-imgs > div > img {
+  border: 2px solid #3883F6;
+  border-radius: 6px;
+}
+
+.sc-content-imgs > div > p {
+  text-align: center;
+  color: #1F2937;
+  font-size: 13px;
+}
+
+.td-section {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.td-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+  padding: 80px;
+}
+
+.b-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.thor {
+  font-weight: 600;
+  align-self: flex-end;
+  padding-right: 54px;
+}
+
+.ft-section {
+  display: flex;
+  justify-content: center;
+}
+
+.ft-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px;
+  padding: 16px;
+  border-radius: 10px;
+  width: 60%;
+  background-color: #3883F6;
+}
+
+.ft-left {
+  color: #F9FAF8;
+}
+
+.ft-left-fs-text {
+  font-weight: 600;
+}
+
+.ft-right > button {
+  color: #F9FAF8;
+  background-color: transparent;
+  border: 2px solid #F9FAF8;
+  padding: 2px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  padding: 16px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+footer > p {
+  text-align: center;
+}
